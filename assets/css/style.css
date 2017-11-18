@@ -1,12 +1,18 @@
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #777777;
+}
+
 #bigHeader{
   width: 100%;
   color:blue;
-  background-color: teal;
+  background-color: #4aaaa5;
   position: fixed;
   float: left;
   border-color: grey;
   border-style: hidden hidden solid hidden;
-  padding-top: 20px;
 }
 
 #logo{
@@ -14,27 +20,30 @@
   font-size: 24px;
   font-family: georgia;
   vertical-align: middle;
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
 }
+
 .container a{
-    border-color: grey;
-    border-left: solid 1px;
-    color: black;
-    padding-top: 20px;
+    color: #777777;
 }
 
 .container a:hover{
-  text-decoration: overline;
+  opacity: .5;
 }
 
 nav{
   float: right;
   width: 80%;
   padding-right: 30px;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   background-color: white;
   text-align: right;
 }
 
-a{
-  border-style: left hidden;
+body{
+  margin: 0;
 }
