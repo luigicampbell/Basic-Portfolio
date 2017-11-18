@@ -1,0 +1,40 @@
+#bigHeader{
+  width: 100%;
+  color:blue;
+  background-color: teal;
+  position: fixed;
+  float: left;
+  border-color: grey;
+  border-style: hidden hidden solid hidden;
+  padding-top: 20px;
+}
+
+#logo{
+  color: white;
+  font-size: 24px;
+  font-family: georgia;
+  vertical-align: middle;
+}
+.container a{
+    border-color: grey;
+    border-left: solid 1px;
+    color: black;
+    padding-top: 20px;
+}
+
+.container a:hover{
+  text-decoration: overline;
+}
+
+nav{
+  float: right;
+  width: 80%;
+  padding-right: 30px;
+  padding: 10px;
+  background-color: white;
+  text-align: right;
+}
+
+a{
+  border-style: left hidden;
+}
