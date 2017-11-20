@@ -105,7 +105,7 @@ h1, h2{
   max-width:650px;
   float: left;
   border: 1px solid #dddddd;
-  padding-top: 200px;
+  padding-top: 17px;
 }
 
 .auth-image {
@@ -160,9 +160,35 @@ footer{
 }
 
 .work{
-  margin: 20px 0 25px;
+  margin: 20px 10px 20px;
   position: relative;
   overflow: auto;
-  width: 260px;
+  width: 270px;
   float: left;
+
+}
+
+.work img{
+  width: 90%;
+  border: 0 none;
+  opacity: .8;
+}
+
+.work h3{
+  font-family: georgia;
+  border-bottom: 0;
+  background: #4aaaa5;
+  color:#ffffff;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+  width: 90%;
+  line-height: 10px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+#contactMe{
+
 }
