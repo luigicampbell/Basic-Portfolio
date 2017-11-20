@@ -35,7 +35,9 @@
 }
 
 #mainContent{
+  padding-top: 130px;
 }
+
 .logo :hover{
   opacity: .5;
   color:#777777;
@@ -46,7 +48,6 @@
   opacity: .5;
   border: none;
   color: green;
-
 }
 
 nav{
@@ -62,10 +63,14 @@ body{
   line-height: 25px;
   font-size: 14px;
 }
+
 h1, h2, h3, p {
   margin-bottom: 20px;
 }
 
+p{
+  text-align: justify;
+}
 p :last-child{
   margin-bottom: 0;
 }
@@ -75,7 +80,6 @@ p :last-child{
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-  text-align: justify;
 }
 
 h1, h2{
@@ -83,7 +87,7 @@ h1, h2{
   color: #4aaaa5;
   font-weight: 600;
   padding-bottom: 25px;
-  font-size: 20px;
+  font-size: 30px;
   border-bottom: 3px solid #dddddd;
 }
 
@@ -100,6 +104,7 @@ h1, h2{
   max-width:650px;
   float: left;
   border: 1px solid #dddddd;
+  padding-top: 200px;
 }
 
 .auth-image {
@@ -125,6 +130,7 @@ h2, h3, .sidebar {
   line-height: 20px;
   border-bottom: solid 2px #eeeeee;
   padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .networking{
@@ -146,5 +152,12 @@ footer{
   background: #666666;
   color: #ffffff;
   border-top: 8px solid #4aaaa5;
+}
 
+.work{
+  margin: 20px 0 25px;
+  position: relative;
+  overflow: auto;
+  width: 260px;
+  float: left;
 }
