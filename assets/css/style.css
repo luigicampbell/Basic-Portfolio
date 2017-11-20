@@ -25,7 +25,7 @@
   float: left;
   height: 100px;
   width: 250px;
-  background: #4aaaa5;
+  background: #488cee;
   text-align: center;
   line-height: 100px;
   font-weight: 600;
@@ -47,7 +47,7 @@
 .options :hover{
   opacity: .5;
   border: none;
-  color: green;
+  color: #488cee;
 }
 
 nav{
@@ -85,7 +85,7 @@ p :last-child{
 
 h1, h2{
   font-family: georgia;
-  color: #4aaaa5;
+  color: #488cee;
   font-weight: 600;
   padding-bottom: 25px;
   font-size: 30px;
@@ -119,7 +119,7 @@ h1, h2{
 .sidebar {
   max-width: 270px;
   line-height: 20px;
-  background: :#ffffff;
+  background: #ffffff;
   padding: 30px;
   margin-bottom: 20px;
   float: right;
@@ -136,7 +136,7 @@ h2, h3, .sidebar {
   font-size: 20px;
 }
 
-#connect .networking :hover{
+#connect a:hover {
   opacity: .5;
 }
 .networking{
@@ -158,7 +158,7 @@ footer{
   color: #cccccc;
   background: #666666;
   color: #ffffff;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #488cee;
 }
 
 .work{
@@ -179,7 +179,7 @@ footer{
 .work h3{
   font-family: georgia;
   border-bottom: 0;
-  background: #4aaaa5;
+  background: #488cee;
   color:#ffffff;
   text-align: center;
   position: absolute;
@@ -191,6 +191,37 @@ footer{
   font-weight: 300;
 }
 
-#contactMe{
+#contactMe ul{
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
 
+#contactMe li{
+  margin-bottom: 10px;
+}
+
+label, input[type=text], input[type=email], textarea{
+  display: block;
+  width: 100%;
+}
+
+input[type=text], input[type=email]{
+  height: 35px;
+  border: 1px solid #dddddd;
+  padding: 0 10px;
+  font-size: 14px;
+  opacity: .6;
+}
+
+textarea{
+  height: 200px;
+}
+
+input[type=submit]{
+  background: #488cee;
+  border: 0 none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 30px;
+  cursor: pointer;
 }
