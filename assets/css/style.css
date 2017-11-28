@@ -227,3 +227,13 @@ input[type=submit]{
   padding: 10px 30px;
   cursor: pointer;
 }
+
+img.auth-img :hover{
+	opacity: .5;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  margin-top: 35%;
+}
