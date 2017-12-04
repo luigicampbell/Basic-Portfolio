@@ -111,10 +111,10 @@ h1, h2{
 .auth-image {
   height: auto;
   width: 200px;
-  margin-top: 15px;
-  margin-right: 20px;
+  margin-top: 6px;
+  margin-right: 15px;
   float:left;
-  margin-left: 15px;
+  margin-left: 4px;
 }
 
 .sidebar {
@@ -125,8 +125,8 @@ h1, h2{
   margin-bottom: 20px;
   float: right;
   border: solid 1px #dddddd;
-  margin-left: 700px;
   position: fixed;
+  left: 900px;
 }
 
 h2, h3, .sidebar {
@@ -139,7 +139,10 @@ h2, h3, .sidebar {
 
 #connect a:hover {
   opacity: .5;
+  position: relative;
+
 }
+
 .networking{
   margin-top: 10px;
   margin-right: 5px;
@@ -233,7 +236,28 @@ img.auth-img :hover{
 }
 
 footer{
+  clear: both;
   position: fixed;
   width: 100%;
-  margin-top: 35%;
+  bottom: 0;
 }
+footer .push{
+  height: 15px;
+}
+.row::after {
+  content:"";
+  clear: both;
+  display: block;
+}
+[class*="col-"]{
+  float:left;
+  padding: 15px;
+}
+
+.col-3{width: 25%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
